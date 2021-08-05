@@ -8,8 +8,6 @@ $path = trim(fgets($path));
 
 checking_directory($path);
 print_r($_SESSION);
-
-die();
 session_destroy();
 
 function input_string($string = null)
